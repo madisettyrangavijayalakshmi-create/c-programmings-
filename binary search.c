@@ -24,8 +24,9 @@ int main()
 		mid=(low+high)/2;
 	}
 	if(x==a[mid])
-	printf("search element is found");
+	printf("element is found");
 	else
-	printf("search element found");
+	printf("element is not found");
 	return 0;
-	}
+	
+}
